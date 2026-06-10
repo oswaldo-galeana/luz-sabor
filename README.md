@@ -19,5 +19,4 @@ El objetivo de este proyecto es crear una interfaz de usuario atractiva, rápida
 
 *   **Frontend:** React + Vite
 *   **Estilos:** Tailwind Css
-*   **Componentes de UI:** [Opcional: Si usas alguna librería como shadcn/ui]
 *   **Diseño:** Figma (Prototipado y Wireframing)

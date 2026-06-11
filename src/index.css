@@ -1,1 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=Jost:wght@300;400;500&display=swap');
+
 @import "tailwindcss";
+
+/* stylelint-disable-next-line at-rule-no-unknown */
+@theme {
+    /* Fondos crema */
+     --color-cream-base: #FAF6F0;
+     --color-cream-alt: #F5EFE6;
+     --color-cream-border: #EDE4D6;
+     --color-cream-surface: #FFFCF8;
+
+    /* Textos */
+    --color-text-primary: #2C2118;
+    --color-text-secondary: #6B5133;
+    --color-text-muted: #A8906A;
+
+    /* Verde olivo */
+    --color-olive-base: #7A8B5A;
+    --color-olive-hover: #9DAD7A;
+
+    /* WhatsApp */
+    --color-wa-green: #25D366;
+    --color-wa-dark:  #128C7E;
+
+    /* Dorado */
+    --color-gold-main:  #C9961E;
+    --color-gold-light: #EDD07A;
+    --color-gold-mid:   #DDB84A;
+    --color-gold-dark:  #7A5C00;
+    --color-gold-deep:  #8B6210;
+
+    /* Tipografías */
+    --font-display: "Cormorant Garamond", serif;
+    --font-body: "Jost", sans-serif;
+}

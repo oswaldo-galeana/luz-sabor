@@ -6,9 +6,9 @@ import './App.css'
 
 function App() {
   return (
-    <h1 className="text-3xl font-bold text-center mt-10 bg">
-        <em>Luz & Sabor</em> 
-    </h1>
+  <h1 className="font-display text-gold-main text-5xl bg-cream-base p-8">
+    Luz & Sabor
+  </h1>
   )
 }
 

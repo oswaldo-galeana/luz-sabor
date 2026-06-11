@@ -1,14 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import './App.css'
+import Button from './components/Button'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-  <h1 className="font-display text-gold-main text-5xl bg-cream-base p-8">
-    Luz & Sabor
-  </h1>
+    <div className="flex flex-nowrap gap-4 p-4 pt-16">
+      <Navbar />
+      <br />
+      <Button variant="primary">Hola</Button>
+      <Button variant="secondary">Hola</Button>
+    </div>
   )
 }
 

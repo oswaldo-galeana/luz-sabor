@@ -3,11 +3,13 @@
 @import "tailwindcss";
 
 @theme {
+
     /* Fondos crema */
     --color-cream-base: #FAF6F0;
     --color-cream-alt: #F5EFE6;
     --color-cream-border: #EDE4D6;
     --color-cream-surface: #FFFCF8;
+    --color-cream-logo: #FEF5E6;
 
     /* Textos */
     --color-text-primary: #2C2118;
@@ -28,6 +30,15 @@
     --color-gold-mid: #DDB84A;
     --color-gold-dark: #7A5C00;
     --color-gold-deep: #8B6210;
+    --background-image-gold-gradient: linear-gradient(
+    90deg,
+    #C8884A 0%,
+    #E8C46A 15%,
+    #F5E0B0 50%,
+    #E8C46A 75%,
+    #D4A050 90%,
+    #8B5A14 100%
+    );
 
     /* Tipografías */
     --font-display: "Cormorant Garamond", serif;

@@ -1,13 +1,14 @@
 import Button from './components/Button'
 import Navbar from './components/Navbar'
+import logo from './assets/logo.jpeg'
+import Hero from './components/Hero'
 
 function App() {
   return (
-    <div className="flex flex-nowrap gap-4 p-4 pt-16">
+    <div className="bg-cream-base min-h-screen pt-18">
       <Navbar />
-      <br />
-      <Button variant="primary">Hola</Button>
-      <Button variant="secondary">Hola</Button>
+
+      <Hero />
     </div>
   )
 }

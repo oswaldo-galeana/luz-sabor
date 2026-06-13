@@ -1,5 +1,5 @@
 import logo from '../assets/logo.jpeg'
-import Button from './Button'
+import Button from '../components/Button'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons'
@@ -9,7 +9,7 @@ export default function Hero() {
     return(
         <>
         <section className="w-full bg-cream-logo pt-5 flex flex-col items-center">
-            <img src={logo} alt="Logo" className="w-48 aspect-square object-cover mx-auto"/>
+            <img src={logo} alt="Logotipo" className="w-48 aspect-square object-cover mx-auto"/>
                 <hr className="border-none h-px bg-gold-gradient w-full mt-5" />
         </section>
 

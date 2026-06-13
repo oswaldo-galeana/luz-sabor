@@ -68,7 +68,6 @@ src/
 ├── components/    # Piezas reutilizables (Button, Card, Badge…)
 ├── sections/      # Secciones de la página (Hero, Catalog, FAQ…)
 ├── hooks/         # Custom hooks
-├── constants/     # Datos estáticos (productos, FAQs…)
 └── App.jsx        # Solo importa secciones
 ```
 

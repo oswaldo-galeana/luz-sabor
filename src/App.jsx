@@ -4,6 +4,7 @@ import logo from './assets/logo.jpeg'
 import Hero from './sections/Hero'
 import Catalog from './sections/Catalog'
 import OrderCTA from './sections/OrderCTA'
+import Footer from './sections/Footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Catalog />
       <OrderCTA />
+      <Footer />
     </div>
   )
 }

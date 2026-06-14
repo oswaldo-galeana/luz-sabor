@@ -3,6 +3,16 @@ import vainilla from '../assets/vainilla.png'
 import ProductCard from '../components/ProductCard'
 
 export default function Catalog() {
+
+    const velas = [
+        {imagen: chocolate ,categoria:"VELA CLÁSICA",nombre:"Vela de chocolate",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
+        {imagen: vainilla ,categoria:"VELA CLÁSICA",nombre:"Vela de vainilla",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
+    ]    
+
+    velas.map((vela) => (
+        <ProductCard key={vela.nombre} {...vela} /> 
+    ))
+
     return (
         <>
         <section className="w-full bg-cream-alt py-3 px-3">
@@ -15,19 +25,9 @@ export default function Catalog() {
             <p className="font-body text-sm text-center text-text-muted pb-5">Cada vela es hecha a mano. Agrega las que quieras en un solo pedido por WhatsApp.</p>
 
             <div className='flex flex-col gap-8 pb-5'>
-            <ProductCard
-                imagen={chocolate}
-                categoria="VELA CLÁSICA"
-                nombre="Vela de Chocolate"
-                descripcion="Suave, dulce y aromática, Perfecta para cualquier celebración especial. "
-                precio="$350 MXN" />
-
-            <ProductCard
-                imagen={vainilla}
-                categoria="VELA CLÁSICA"
-                nombre="Vela de Vainilla"
-                descripcion="Suave, dulce y aromática, Perfecta para cualquier celebración especial. "
-                precio="$350 MXN" />    
+                {velas.map((vela) => (
+                    <ProductCard key={vela.nombre} {...vela} /> 
+                ))}
             </div>
 
         </section>

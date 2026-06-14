@@ -5,6 +5,7 @@ import Hero from './sections/Hero'
 import Catalog from './sections/Catalog'
 import OrderCTA from './sections/OrderCTA'
 import Footer from './sections/Footer'
+import Benefits from './sections/Benefits'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Catalog />
       <OrderCTA />
+      <Benefits />
       <Footer />
     </div>
   )

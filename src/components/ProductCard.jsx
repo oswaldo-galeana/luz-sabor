@@ -1,3 +1,8 @@
+import { buildWhatsAppURL } from "../utils/whatsApp"
+import Button from "./Button"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
+
 export default function ProductCard({imagen, categoria, nombre, descripcion, precio}) {
     return (
         <div className="flex flex-col rounded-xl border border-gold-main bg-cream-surface overflow-hidden">
@@ -9,10 +14,13 @@ export default function ProductCard({imagen, categoria, nombre, descripcion, pre
 
             <div className="flex flex-row gap-2 items-center justify-between mt-3">
             <p className="font-body text-gold-main text-xl italic">{precio}</p>
-            <Button variant="primary">
-            <FontAwesomeIcon icon={faWhatsapp} size="lg"/> Pedir</Button>
-            </div>
+
+            <Button variant="primary" onClick={() => window.open(buildWhatsAppURL(nombre), '_blank')}>
+            <FontAwesomeIcon icon={faWhatsapp} size="lg"/>
+            Pedir
+            </Button>
             
+            </div>
         </div>
         </div>
     )

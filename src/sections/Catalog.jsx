@@ -8,11 +8,6 @@ export default function Catalog() {
         {imagen: chocolate ,categoria:"VELA CLÁSICA",nombre:"Vela de chocolate",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
         {imagen: vainilla ,categoria:"VELA CLÁSICA",nombre:"Vela de vainilla",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
     ]    
-
-    velas.map((vela) => (
-        <ProductCard key={vela.nombre} {...vela} /> 
-    ))
-
     return (
         <>
         <section className="w-full bg-cream-alt py-3 px-3">

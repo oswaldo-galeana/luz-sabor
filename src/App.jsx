@@ -7,6 +7,7 @@ import Footer from './sections/Footer'
 import Benefits from './sections/Benefits'
 import Testimonials from './sections/Testimonials'
 import FAQ from './sections/FAQ'
+import CTA from './sections/CTA'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Benefits />
       <Testimonials /> 
       <FAQ />
+      <CTA />
       <Footer />
     </div>
   )

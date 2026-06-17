@@ -31,7 +31,7 @@ export default function Hero() {
          <Button  onClick={() => { window.location.href = "https://wa.me/525658433558?text=Hola%2C%20me%20gustar%C3%ADa%20hacer%20un%20pedido%20%F0%9F%95%AF%EF%B8%8F" }} variant="primary" >
             <FontAwesomeIcon icon={faWhatsapp} size="xl"/>WhatsApp</Button>
 
-         <Button onClick={() => { window.location.href = "#Catalog" }} variant="secondary" >
+         <Button onClick={() => { document.getElementById("Catalog").scrollIntoView({ behavior: "smooth" }) }} variant="secondary" >
             Ver catálogo <FontAwesomeIcon icon={faArrowDown}/>
          </Button>
          </div>

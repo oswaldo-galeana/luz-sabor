@@ -5,12 +5,12 @@
     export default function SideBar({isOpen, onClose}) {
 
     const links = [
-        {href:"#Hero" , icon:faHouse , label:"Inicio"},
-        {href:"#Catalog" , icon:faBookOpen , label:"Catálogo"},
-        {href:"#Benefits" , icon:faStar , label:"Por qué nosotros"},
-        {href:"#Clients" , icon:faComments , label:"Clientes"},
-        {href:"#FAQ" , icon:faQuestion , label:"Preguntas frecuentes"},
-        {href:"#CTA" , icon:faBagShopping , label:"Hacer pedido"},
+        {id:"Hero" , icon:faHouse , label:"Inicio"},
+        {id:"Catalog" , icon:faBookOpen , label:"Catálogo"},
+        {id:"Benefits" , icon:faStar , label:"Por qué nosotros"},
+        {id:"Clients" , icon:faComments , label:"Clientes"},
+        {id:"FAQ" , icon:faQuestion , label:"Preguntas frecuentes"},
+        {id:"CTA" , icon:faBagShopping , label:"Hacer pedido"},
     ]
 
         return (
@@ -32,10 +32,9 @@
             
                 <div>
                     {links.map((link) => (
-                        <React.Fragment key={link.href}>
-                        <a onClick={onClose} href={link.href} className="block cursor-pointer text-text-primary font-display 
+                        <React.Fragment key={link.id}>
+                        <a onClick={() => { document.getElementById(link.id).scrollIntoView({ behavior: "smooth" }); onClose(); }} className="block cursor-pointer text-text-primary font-display 
                         font-bold text-xl py-6 px-3 hover:bg-cream-alt hover:text-gold-main active:bg-cream-alt active:text-gold-main transition-all duration-200 ">
-                           
                             <FontAwesomeIcon icon={link.icon} className="text-olive-base" /> {link.label}
                         </a>
 

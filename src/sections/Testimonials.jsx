@@ -6,7 +6,7 @@ export default function Testimonials(){
     ]
     return (
         <>
-        <section className="w-full bg-cream-alt flex flex-col items-center justify-center py-5 px-3">
+        <section id="Clients" className="w-full bg-cream-alt flex flex-col items-center justify-center py-5 px-3">
             <p className="font-body text-gold-main text-sm font-bold">LO QUE DICEN</p>
 
             <p className="text-lg py-2">

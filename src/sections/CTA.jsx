@@ -7,7 +7,7 @@ export default function CTA() {
 
     return (
         <>
-        <section className="w-full bg-cream-alt flex flex-col text-center justify-center items-center px-3">
+        <section id="CTA" className="w-full bg-cream-alt flex flex-col text-center justify-center items-center px-3">
             <p className="font-body font-bold text-sm text-gold-main">EMPIEZA TU EXPERIENCIA</p>
             
             <p className="text-lg text-light py-3">

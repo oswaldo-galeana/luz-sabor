@@ -9,7 +9,7 @@ export default function FAQ() {
     ]
     return (
         <>
-        <section className="w-full bg-cream-base text-center justify-center items center py-3 px-3">
+        <section id="FAQ" className="w-full bg-cream-base text-center justify-center items center py-3 px-3">
             <p className="text-gold-main text-sm font-body font-bold">PREGUNTAS FRECUENTES</p>
 
             <p className="font-display text-lg py-2">

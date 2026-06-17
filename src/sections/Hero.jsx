@@ -13,7 +13,7 @@ export default function Hero() {
                 <hr className="border-none h-px bg-gold-gradient w-full mt-5" />
         </section>
 
-        <section className="w-full bg-cream-base py-3 px-3">
+        <section id='Hero' className="w-full bg-cream-base py-3 px-3">
 
          <p className="font-display text-3xl text-center leading-tight py-5">
          <span className="text-text-primary">Velas que se </span>

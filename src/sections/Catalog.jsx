@@ -10,7 +10,7 @@ export default function Catalog() {
     ]    
     return (
         <>
-        <section className="w-full bg-cream-alt py-3 px-3">
+        <section id='Catalog' className="w-full bg-cream-alt py-3 px-3">
             <p className="font-body text-sm font-bold text-center text-gold-main py-2">CATÁLOGO</p>
             
             <p className="text-lg text-center text-text-primary font-display py-2">

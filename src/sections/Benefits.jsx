@@ -11,7 +11,7 @@ export default function Benefits() {
 
     return (
         <>
-        <section className="bg-cream-base w-full flex flex-col items-center justify-center py-5 px-3">
+        <section id="Benefits" className="bg-cream-base w-full flex flex-col items-center justify-center py-5 px-3">
 
         <p className="font-body text-gold-main text-sm font-bold">¿PORQUÉ ELEGIRNOS?</p>
 

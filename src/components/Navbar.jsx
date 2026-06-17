@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Button from "./Button";
 import SideBar from "./SideBar";
+import { faBar } from "@fortawesome/free-solid-svg-icons"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Navbar() {
 const [abierto, setAbierto] = useState(false)
@@ -11,7 +13,7 @@ const [abierto, setAbierto] = useState(false)
 
       <div onClick={() => setAbierto(!abierto)} className="cursor-pointer">  
         <div className="text-gold-main bg-transparent border-none text-2xl hover:-translate-y-1 active:translate-y-0.5 transition-all duration-200">
-         <span className={`transition-all duration-300 ${abierto ? "opacity-0" : "opacity-100"}`}>☰</span>
+         <span className={`transition-all duration-300 ${abierto ? "opacity-0" : "opacity-100"}`}><FontAwesomeIcon icon={faBar}/></span>
         </div>
       </div>
 

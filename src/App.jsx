@@ -3,10 +3,10 @@ import Navbar from './components/Navbar'
 import logo from './assets/logo.jpeg'
 import Hero from './sections/Hero'
 import Catalog from './sections/Catalog'
-import OrderCTA from './sections/OrderCTA'
 import Footer from './sections/Footer'
 import Benefits from './sections/Benefits'
 import Testimonials from './sections/Testimonials'
+import FAQ from './sections/FAQ'
 
 function App() {
   return (
@@ -14,7 +14,6 @@ function App() {
       <Navbar />
       <Hero />
       <Catalog />
-      <OrderCTA />
       <Benefits />
       <Testimonials /> 
       <FAQ />

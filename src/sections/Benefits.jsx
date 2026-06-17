@@ -20,7 +20,7 @@ export default function Benefits() {
             <em className="font-display bg-gold-gradient bg-clip-text text-transparent">diferentes</em>
         </p>
 
-        <p className="text-text-muted font-body text-sm">Cada vela de Luz & Sabor es una experiencia pensada con cuidado, desde los ingredientes, hasta la presentación.</p>
+        <p className="text-text-muted text-center font-body text-sm">Cada vela de Luz & Sabor es una experiencia pensada con cuidado, desde los ingredientes, hasta la presentación.</p>
 
         <div className="flex flex-col gap-5 py-3">
             {beneficios.map((beneficio) => (

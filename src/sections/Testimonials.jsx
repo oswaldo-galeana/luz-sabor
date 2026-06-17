@@ -16,7 +16,7 @@ export default function Testimonials(){
 
             <div className="flex flex-col w-full gap-3">
                 {comentarios.map((comentario) => (
-                    <TestimonialCard key={comentarios.descripcion} {...comentario} />
+                    <TestimonialCard key={comentario.descripcion} {...comentario} />
                   )
                 )}
             </div>

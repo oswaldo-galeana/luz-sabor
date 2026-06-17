@@ -6,6 +6,7 @@ import Catalog from './sections/Catalog'
 import OrderCTA from './sections/OrderCTA'
 import Footer from './sections/Footer'
 import Benefits from './sections/Benefits'
+import Testimonials from './sections/Testimonials'
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Catalog />
       <OrderCTA />
       <Benefits />
+      <Testimonials /> 
+      <FAQ />
       <Footer />
     </div>
   )

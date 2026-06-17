@@ -8,12 +8,12 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 export default function Hero() {
     return(
         <>
-        <section className="w-full bg-cream-logo pt-5 flex flex-col items-center">
+        <section id='Hero' className="w-full bg-cream-logo pt-5 flex flex-col items-center">
             <img src={logo} alt="Logotipo" className="w-48 aspect-square object-cover mx-auto"/>
                 <hr className="border-none h-px bg-gold-gradient w-full mt-5" />
         </section>
 
-        <section id='Hero' className="w-full bg-cream-base py-3 px-3">
+        <section className="w-full bg-cream-base py-3 px-3">
 
          <p className="font-display text-3xl text-center leading-tight py-5">
          <span className="text-text-primary">Velas que se </span>
@@ -28,10 +28,12 @@ export default function Hero() {
          </p> 
 
          <div className="flex gap-3 justify-center pb-10">   
-         <Button variant="primary" >
+         <Button  onClick={() => { window.location.href = "https://wa.me/525658433558?text=Hola%2C%20me%20gustar%C3%ADa%20hacer%20un%20pedido%20%F0%9F%95%AF%EF%B8%8F" }} variant="primary" >
             <FontAwesomeIcon icon={faWhatsapp} size="xl"/>WhatsApp</Button>
-         <Button variant="secondary" >
-            Ver catálogo <FontAwesomeIcon icon={faArrowDown}/></Button>
+
+         <Button onClick={() => { window.location.href = "#Catalog" }} variant="secondary" >
+            Ver catálogo <FontAwesomeIcon icon={faArrowDown}/>
+         </Button>
          </div>
 
         <div className="flex gap-2 justify-center flex-wrap">

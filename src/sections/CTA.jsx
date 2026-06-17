@@ -20,14 +20,10 @@ export default function CTA() {
             </p>
 
             <div className="flex flex-row gap-2 py-3">
-            <Button variant="primary">
+            <Button onClick={() => { window.location.href = "https://wa.me/525658433558?text=Hola%2C%20me%20gustar%C3%ADa%20hacer%20un%20pedido%20%F0%9F%95%AF%EF%B8%8F" }} 
+                    variant="primary">
             <FontAwesomeIcon icon={faWhatsapp} />
-            Pedir por WhatsApp
-            </Button>
-
-            <Button variant="secondary">
-            Hacer pedido 
-            <FontAwesomeIcon icon={faArrowRight} />
+            Hacer Pedido
             </Button>
             </div>
 

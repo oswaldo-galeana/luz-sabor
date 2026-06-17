@@ -1,17 +1,10 @@
     import { faX,faHouse, faBookOpen,faStar, faComments, faQuestion, faBagShopping } from "@fortawesome/free-solid-svg-icons"
     import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
     import React from "react"
+    import { links } from "../utils/links"
 
     export default function SideBar({isOpen, onClose}) {
 
-    const links = [
-        {id:"Hero" , icon:faHouse , label:"Inicio"},
-        {id:"Catalog" , icon:faBookOpen , label:"Catálogo"},
-        {id:"Benefits" , icon:faStar , label:"Por qué nosotros"},
-        {id:"Clients" , icon:faComments , label:"Clientes"},
-        {id:"FAQ" , icon:faQuestion , label:"Preguntas frecuentes"},
-        {id:"CTA" , icon:faBagShopping , label:"Hacer pedido"},
-    ]
 
         return (
             <>

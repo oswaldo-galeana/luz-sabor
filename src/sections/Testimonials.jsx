@@ -2,7 +2,13 @@ import TestimonialCard from "../components/TestimonialCard"
 
 export default function Testimonials(){
     const comentarios = [
-        {descripcion:"muy buenas", nombre:"Rosa Melano", ciudad:"tecpan"}
+        {descripcion:"muy buenas", nombre:"Rosa Melano", ciudad:"tecpan"},
+                {descripcion:"muy buenas", nombre:"Rosa Melano", ciudad:"tecpan"},
+                {descripcion:"muy buenas", nombre:"Rosa Melano", ciudad:"tecpan"},
+                {descripcion:"muy buenas", nombre:"Rosa Melano", ciudad:"tecpan"},
+                {descripcion:"muy buenas", nombre:"Rosa Melano", ciudad:"tecpan"},
+                {descripcion:"muy buenas", nombre:"Rosa Melano", ciudad:"tecpan"},
+
     ]
     return (
         <>
@@ -13,8 +19,8 @@ export default function Testimonials(){
                 <span className="font-display text-text-primary">Clientes que </span>
                 <em className="font-display bg-gold-gradient bg-clip-text text-transparent">nos aman</em>
             </p>
-
-            <div className="flex flex-col w-full gap-3">
+ 
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 py-6 max-w-6xl mx-auto">
                 {comentarios.map((comentario) => (
                     <TestimonialCard key={comentario.descripcion} {...comentario} />
                   )

@@ -5,7 +5,7 @@ import { faWhatsapp } from '@fortawesome/free-brands-svg-icons'
 
 export default function ProductCard({imagen, categoria, nombre, descripcion, precio}) {
     return (
-        <div className="flex flex-col rounded-xl border border-gold-main bg-cream-surface overflow-hidden">
+        <div className="flex flex-col rounded-xl border border-gold-main bg-cream-surface overflow-hidden md:max-w-xs md:mx-auto">
             <img src= {imagen} alt={nombre} className="w-full aspect-square object-cover"/>
               <div className="flex flex-col px-3 py-2">
             <p className="font-body text-olive-base text-xs font-semibold ">{categoria}</p>

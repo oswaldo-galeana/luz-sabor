@@ -9,20 +9,21 @@ export default function Hero() {
     return(
         <>
         <section id='Hero' className="w-full bg-cream-logo pt-5 flex flex-col items-center">
-            <img src={logo} alt="Logotipo" className="w-48 aspect-square object-cover mx-auto"/>
+            <img src={logo} alt="Logotipo" className="w-48 aspect-square object-cover mx-auto md:w-120"/>
                 <hr className="border-none h-px bg-gold-gradient w-full mt-5" />
         </section>
 
-        <section className="w-full bg-cream-base py-3 px-3">
+        <section className="w-full bg-cream-base py-3 px-3 grid md:grid-cols-2 gap-8 ">
 
-         <p className="font-display text-3xl text-center leading-tight py-5">
+         <div className=''>
+         <p className="font-display text-3xl text-center leading-tight py-5 md:text-5xl">
          <span className="text-text-primary">Velas que se </span>
          <em className="bg-gold-gradient bg-clip-text text-transparent">iluminan </em>
          <span className="text-text-primary">y se </span>
          <em className="bg-gold-gradient bg-clip-text text-transparent">saborean.</em>
          </p>
 
-         <p className="text-text-muted text-sm mt-4 text-center pb-10">
+         <p className="text-text-muted text-sm mt-4 text-center pb-10 md:text-xl">
             Una experiencia única: velas 100% comestibles, hechas a mano con ingredientes naturales.
             Perfectas para celebraciones especiales e instantes inolvidables.
          </p> 
@@ -36,7 +37,9 @@ export default function Hero() {
          </Button>
          </div>
 
-        <div className="flex gap-2 justify-center flex-wrap">
+         </div>
+
+        <div className="flex gap-4 justify-center items-center md:justify-center md:jus">
 
 
          <div className="flex flex-col rounded-xl border border-gold-main bg-cream-surface overflow-hidden">

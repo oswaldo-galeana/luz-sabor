@@ -16,7 +16,7 @@ export default function Hero() {
         <section className="w-full bg-cream-base py-3 px-3 grid md:grid-cols-2 gap-8 ">
 
          <div className=''>
-         <p className="font-display text-3xl text-center leading-tight py-5 md:text-5xl">
+         <p className="font-display text-3xl text-center leading-tight py-5 md:text-4xl">
          <span className="text-text-primary">Velas que se </span>
          <em className="bg-gold-gradient bg-clip-text text-transparent">iluminan </em>
          <span className="text-text-primary">y se </span>
@@ -45,18 +45,18 @@ export default function Hero() {
          <div className="flex flex-col rounded-xl border border-gold-main bg-cream-surface overflow-hidden">
             <div className="h-px bg-gold-gradient w-full pb-0.5"/>
               <div className="flex flex-col px-3 py-2">
-            <p className="font-body text-text-muted text-sm ">PEDIDOS ESTE MES</p>
-            <em className="font-display text-2xl bg-gold-gradient bg-clip-text text-transparent">200+</em>
-            <p className="font-body text-text-muted text-sm ">clientes felices</p>
+            <p className="font-body text-text-muted text-sm lg:text-xl">PEDIDOS ESTE MES</p>
+            <em className="font-display text-2xl bg-gold-gradient bg-clip-text text-transparent lg:text-3xl">200+</em>
+            <p className="font-body text-text-muted text-sm lg:text-xl">clientes felices</p>
             </div>
          </div>
 
         <div className="flex flex-col rounded-xl border border-gold-main bg-cream-surface overflow-hidden">
             <div className="h-px bg-gold-gradient w-full pb-0.5"/>
               <div className="flex flex-col px-3 py-2">
-            <p className="font-body text-text-muted text-sm ">CALIFICACIÓN</p>
-            <em className="font-display text-2xl bg-gold-gradient bg-clip-text text-transparent">4.9★</em>
-            <p className="font-body text-text-muted text-sm ">promedio</p>
+            <p className="font-body text-text-muted text-sm lg:text-xl ">CALIFICACIÓN</p>
+            <em className="font-display text-2xl bg-gold-gradient bg-clip-text text-transparent lg:text-3xl">4.9★</em>
+            <p className="font-body text-text-muted text-sm lg:text-xl">promedio</p>
             </div>
          </div>
 

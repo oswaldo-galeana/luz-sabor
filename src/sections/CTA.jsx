@@ -8,14 +8,14 @@ export default function CTA() {
     return (
         <>
         <section id="CTA" className="w-full bg-cream-alt flex flex-col text-center justify-center items-center px-3">
-            <p className="font-body font-bold text-sm text-gold-main">EMPIEZA TU EXPERIENCIA</p>
+            <p className="font-body font-bold text-sm text-gold-main md:text-lg lg:text-lg">EMPIEZA TU EXPERIENCIA</p>
             
-            <p className="text-lg text-light py-3">
+            <p className="text-lg text-light py-3 md:text-3xl lg:text-4xl">
                 <span className="font-display text-text-primary">&nbsp;Ilumina tu momento </span>
                 <em className="font-display bg-gold-gradient italic bg-clip-text text-transparent">especial &nbsp;</em>
             </p>
 
-            <p className="font-body text-sm text-text-muted">
+            <p className="font-body text-sm text-text-muted md:text-lg lg:text-lg">
                 Un solo mensaje, y tu Vela Comestible está en camino. Escríbenos ahora.
             </p>
 

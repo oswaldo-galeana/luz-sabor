@@ -11,7 +11,7 @@ export default function TestimonialCard({descripcion, nombre, ciudad}) {
             ))}
          </p>
          
-         <p className="font-display text-lg text-text-secondary justify-center italic">
+         <p className="font-display text-lg text-text-secondary justify-center italic lg:text-2xl">
             {descripcion}
         </p>
 
@@ -22,8 +22,8 @@ export default function TestimonialCard({descripcion, nombre, ciudad}) {
         </div>
         
         <div className="flex flex-col gap-0">
-        <p className="font-body font-bold text-text-primary text-xs -mb-1 mt-2">{nombre}</p>
-        <p className="font-body text-text-muted font-light text-xs -mb-2">{ciudad}</p>
+        <p className="font-body font-bold text-text-primary text-xs -mb-1 mt-2 lg:text-lg">{nombre}</p>
+        <p className="font-body text-text-muted font-light text-xs -mb-2 lg:text-lg">{ciudad}</p>
         </div>
 
         </div>

@@ -1,6 +1,6 @@
-import chocolate from '../assets/chocolate.png'
-import vainilla from '../assets/vainilla.png'
-import mantequilla from '../assets/mantequilla.png'
+import chocolate from '../assets/chocolate.jpeg'
+import duo from '../assets/duo.jpeg'
+import mantequilla from '../assets/mantequilla.jpeg'
 import ProductCard from '../components/ProductCard'
 import useEmblaCarousel from "embla-carousel-react"
 import Autoplay from "embla-carousel-autoplay"
@@ -10,8 +10,8 @@ export default function Catalog() {
     const [emblaRef] = useEmblaCarousel({ loop:true}, [Autoplay({delay: 3000, stopOnInteraction: false })])
     const velas = [
         {imagen: chocolate ,categoria:"VELA CLÁSICA",nombre:"Vela de chocolate",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
-        {imagen: vainilla ,categoria:"VELA CLÁSICA",nombre:"Vela de vainilla",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
         {imagen: mantequilla ,categoria:"VELA CLÁSICA",nombre:"Vela de mantequilla",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
+        {imagen: duo ,categoria:"VELA CLÁSICA",nombre:"Vela de vainilla",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
 
     ]    
     return (

@@ -8,6 +8,7 @@ import Benefits from './sections/Benefits'
 import Testimonials from './sections/Testimonials'
 import FAQ from './sections/FAQ'
 import CTA from './sections/CTA'
+import FormFAB from './components/FormFAB'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Testimonials /> 
       <FAQ />
       <CTA />
+      <FormFAB />
       <Footer />
     </div>
   )

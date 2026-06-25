@@ -9,7 +9,7 @@ export default function ProductCard({imagen, categoria, nombre, descripcion, pre
             <img src= {imagen} alt={nombre} className="w-full aspect-square object-cover"/>
               <div className="flex flex-col px-3 py-2">
             <p className="font-body text-olive-base text-xs font-semibold lg:text-sm">{categoria}</p>
-            <p className="font-display text-lg text-text-primary py-2 lg:text-2xl">{nombre}</p>
+            <p className="font-body font-semibold text-lg text-olive-base py-2 lg:text-2xl">{nombre}</p>
             <p className="font-body text-sm text-text-secondary pb-2 lg:text-lg">{descripcion}</p>
 
             <div className="flex flex-row gap-2 items-center justify-between mt-3">

@@ -9,9 +9,9 @@ export default function Catalog() {
 
     const [emblaRef] = useEmblaCarousel({ loop:true}, [Autoplay({delay: 3000, stopOnInteraction: false })])
     const velas = [
-        {imagen: chocolate ,categoria:"VELA CLÁSICA",nombre:"Vela de chocolate",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
-        {imagen: mantequilla ,categoria:"VELA CLÁSICA",nombre:"Vela de mantequilla",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
-        {imagen: duo ,categoria:"VELA CLÁSICA",nombre:"Vela de vainilla",descripcion:"Suave, dulce y aromática, Perfecta para cualquier celebración especial. ", precio:"$350 MXN" },
+        {imagen: chocolate ,categoria:"",nombre:"Tentación",descripcion:"Vela de chocolate semiamargo y leche, elaborada a mano con ingredientes de calidad. Oscura, cremosa y absolutamente irresistible.", precio:"$250 MXN" },
+        {imagen: mantequilla ,categoria:"",nombre:"Luz dorada   ",descripcion:"Vela de mantequilla cremosa con romero fresco, ajo y un toque de pimienta. Hecha a mano con ingredientes honestos que reconfortan el alma.", precio:"$200 MXN" },
+        {imagen: duo ,categoria:"",nombre:"Doble encanto",descripcion:"Porque los mejores momentos merecen dos placeres. Duo de vela de chocolate y mantequilla.", precio:"$430 MXN" },
 
     ]    
     return (

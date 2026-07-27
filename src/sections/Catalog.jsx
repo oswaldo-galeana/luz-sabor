@@ -9,7 +9,7 @@ export default function Catalog() {
 
     const [emblaRef] = useEmblaCarousel({ loop:true}, [Autoplay({delay: 3000, stopOnInteraction: false })])
     const velas = [
-        {imagen: chocolate ,categoria:"",nombre:"Tentación",descripcion:"Vela de chocolate semiamargo y leche, elaborada a mano con ingredientes de calidad. Oscura, cremosa y absolutamente irresistible.", precio:"$150 MXN" },
+        {imagen: chocolate ,categoria:"",nombre:"Tentación",descripcion:"Vela de chocolate semiamargo, elaborada a mano con ingredientes de calidad. Oscura, cremosa y absolutamente irresistible.", precio:"$150 MXN" },
         {imagen: romero ,categoria:"",nombre:"Luz Dorada   ",descripcion:"Vela de mantequilla cremosa con romero fresco, ajo y un toque de pimienta. Hecha a mano con ingredientes honestos que reconfortan el alma.", precio:"$125 MXN" },
         {imagen: cebolla ,categoria:"",nombre:"Onion Gold",descripcion:"Vela comestible elaborada con mantequilla, cebolla caramelizada, ajo y un toque de sal. Cremosa, aromática y perfecta para acompañar pan o botanas.", precio:"$125 MXN" },
 
